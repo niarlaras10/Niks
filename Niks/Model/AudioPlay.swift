@@ -37,3 +37,8 @@ class AudioPlayer:ObservableObject  {
     }
 }
 
+func sidebarOptionSelected(option: String) {
+    let audioPlayer = AudioPlayer()
+
+    audioPlayer.playSong(title: option)
+    }
